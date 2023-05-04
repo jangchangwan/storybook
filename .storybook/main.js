@@ -1,6 +1,6 @@
 module.exports = {
-  stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
-  stories: ['../src/components/**/*.stories.js'],
+  // stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
+  stories: ['../src/**/*.stories.@(js|jsx|ts|tsx)'],
   staticDirs: ['../public'],
   addons: [
     '@storybook/addon-links',
@@ -14,5 +14,6 @@ module.exports = {
   },
   features: {
     interactionsDebugger: true,
+    // previewMdx2: true,
   },
 };

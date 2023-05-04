@@ -1,10 +1,10 @@
 import React from 'react';
 
-import GhostText from './GhostText';
+import GhostText from '../components/GhostText';
 
 export default {
   component: GhostText,
-  title: 'GhostText',
+  title: 'CSS/GhostText',
 };
 
 const Template = (args) => <GhostText {...args} />;

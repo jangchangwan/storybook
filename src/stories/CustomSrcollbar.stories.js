@@ -1,10 +1,10 @@
 import React from 'react';
 
-import CustomScrollbar from './CustomScrollbar';
+import CustomScrollbar from '../components/CustomScrollbar';
 
 export default {
   component: CustomScrollbar,
-  title: 'CustomScrollbar',
+  title: 'CSS/CustomScrollbar',
 };
 
 const Template = (args) => <CustomScrollbar {...args} />;

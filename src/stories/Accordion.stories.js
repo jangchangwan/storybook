@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Accordion from './Accordion';
+import Accordion from '../components/Accordion';
 
 export default {
   component: Accordion,
-  title: 'Accordion',
+  title: 'CSS/Accordion',
 };
 
 const Template = (args) => <Accordion {...args} />;
