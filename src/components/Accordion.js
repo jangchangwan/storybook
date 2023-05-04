@@ -1,5 +1,5 @@
-import React, { memo, useState, useCallback, ReactText, useRef } from 'react';
-import styled, { css } from 'styled-components';
+import React, { useState, useCallback, useRef } from 'react';
+import styled from 'styled-components';
 
 export function AccordionBox({ title, content }) {
   const parentRef = useRef(null);

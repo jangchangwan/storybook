@@ -16,7 +16,7 @@ export default function GhostText({ content }) {
 const Container = styled.div`
   padding: 5rem;
   color: #fff;
-  font-size: 5rem;
+  font-size: 2rem;
 `;
 
 const GhostEffects = styled.span`
@@ -36,9 +36,9 @@ const Text = styled.h2`
 
   &:hover {
     ${GhostEffects} {
-      filter: blur(20px);
+      filter: blur(36px);
       opacity: 0;
-      transform: scale(2);
+      transform: scale(1.4);
     }
   }
 `;
