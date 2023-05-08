@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import Code from '../assets/icon/code-brackets.svg';
 import Repo from '../assets/icon/repo.svg';
-import Comments from '../assets/icon/comments.svg';
 import Plugin from '../assets/icon/plugin.svg';
 import Flow from '../assets/icon/flow.svg';
 
@@ -29,20 +28,13 @@ export default function Intro() {
       </LinkList>
       <Subheading>Contact Me</Subheading>
       <LinkList>
-        <LinkItem href="https://changwan327.notion.site/Main-a36a277be8b6433a84b44d1cb0dac160" target="_blank">
-          <Image src={Comments} alt="comments" />
-          <Span>
-            <Strong>Notion</Strong>
-            멋진 마인드와 세상의 문제를 해결하는데에 관심이 있다면 언제든지 인맥으로 추가해 주세요.
-          </Span>
-        </LinkItem>
         <LinkItem
           href="https://www.notion.so/changwan327/826b71078ea14b829ae4b12b2e3776fe?v=fb3081b6fb39469196ec7c0ab1f46cf4&pvs=4"
           target="_blank"
         >
           <Image src={Plugin} alt="plugin" />
           <Span>
-            <Strong>Blog</Strong>
+            <Strong>Notion</Strong>
             모든 것들을 기억할 자신이 없어 기록합니다.
           </Span>
         </LinkItem>

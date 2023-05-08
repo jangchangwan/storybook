@@ -4,7 +4,7 @@ import Intro from '../components/Intro';
 
 export default {
   component: Intro,
-  title: 'Intro',
+  title: 'Intro/Intro',
 };
 
 const Template = () => <Intro />;

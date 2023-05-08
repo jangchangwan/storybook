@@ -11,4 +11,11 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  options: {
+    storySort: {
+      method: 'configure',
+      includeNames: true,
+      order: ['Intro', ['Intro', '*'], 'CSS', ['Accordion', 'ContentTyping', 'CustomScrollbar', 'GhostText', '*'], '*'],
+    },
+  },
 };

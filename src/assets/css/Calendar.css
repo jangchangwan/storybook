@@ -1,0 +1,28 @@
+.nullBox {
+  background: #eee;
+  color: #222;
+  font-weight: bold;
+  min-height: 6rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #444444;
+}
+
+.dateBox {
+  color: #222;
+  background-color: #fff;
+  font-weight: bold;
+  min-height: 6rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+
+.weekBox {
+  color: #222;
+  font-weight: bold;
+  min-height: 6rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
